@@ -11,7 +11,4 @@ já a de _Desafios_ ela terá só o projeto sozinho sem sub-pastas.
 
 Sendo assim o formato:
 
-Cursos
-  Módulo
-    Aulas
-      readme.md
+\Cursos\Módulo\Aulas\readme.md
