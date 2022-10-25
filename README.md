@@ -11,4 +11,4 @@ já a de _Desafios_ ela terá só o projeto de desafio sozinho sem sub-pastas.
 
 Sendo assim o formato:
 
-.\Bootcamp\Módulo_\Cursos_\readme.md
+.\Bootcamp\Módulo_\Aulas_\readme.md
