@@ -1,8 +1,30 @@
-.content h1{
-   text-align: center;
+.titulo{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+}
+
+.titulo h1{
    font-weight: 500;
    letter-spacing: 10px;
 }
+
+.search{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   margin: 10px;
+}
+
+.search input{
+   padding: 15px;
+   border: solid 1px ;
+   width: 300px;
+   border-radius: 10px;
+   font-family: Roboto;
+}
+
 .pokemons{
    display: grid;
    grid-template-columns: 1fr;

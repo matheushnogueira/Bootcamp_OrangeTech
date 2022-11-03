@@ -23,13 +23,19 @@
 <body>
    
    <section class="content">
-      <h1> POKEDEX </h1>
+
+      <div class="titulo">
+         <h1>POKEDEX</h1>
+      </div>
+
+      <div class="search">
+         <input id="searchbar" onkeyup="search_pokemon()" type="text"
+            name="search" placeholder="Pesquise seu pokémon...">
+      </div>
+      
       <ol id="pokemonList" class="pokemons">  
          <!-- Pokemon section  -->
       </ol>
-      <div class="pagination">
-         <button id="loadMore" type="button">Load More</button>
-      </div>
    </section>
 
    <!-- Script -->
