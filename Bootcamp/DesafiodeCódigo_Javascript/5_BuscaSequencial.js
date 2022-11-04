@@ -1,11 +1,9 @@
 let elementos = [64, 137, -16, 43, 67, 81, -90, 212, 10, 75]; 
 
-let valor = 67;
+let valor = 20;
 
-for (let i = 0; i < elementos.length; i++) {
-   const element = elementos[i];
+if(elementos.includes(valor)){
+   const n = elementos.indexOf(valor)
 
-   if(valor == element) {
-      console.log(`Achei ${valor} na posicao ${i}`)
-   }
-}
+   console.log(`Achei ${valor} na posicao ${n}`)
+}else{console.log(`Numero ${valor} nao encontrado!`)}
