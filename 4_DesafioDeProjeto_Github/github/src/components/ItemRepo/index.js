@@ -12,7 +12,7 @@ function ItemRepo ({ repo, handleRemoveRepo }){
       <p>{repo.full_name}</p>
       <a href={repo.html_url} rel="noreferrer" target="_black">Ver repositório</a>
       <br />
-      <a href="#" rel='noreferrer' className='remover'>Remover</a>
+      <a href={repo.id} rel='noreferrer' className='remover'>Remover</a>
       <hr />
    </ItemContainer>
   )

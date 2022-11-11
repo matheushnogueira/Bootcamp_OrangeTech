@@ -31,8 +31,12 @@ function App() {
    }
 
    const handleRemoveRepo = (id) => {
-      console.log(id)
-   }
+      setCurrentRepo(
+         currentRepo.filter(current => {
+          return current.id !== id;
+        })
+      )
+    }
 
    return (
       <Container>
