@@ -75,20 +75,6 @@ const App = () => {
       }
    }
 
-   // Porcentagem
-   const handlePorNumber = () => {
-      if(firstNumber === '0'){
-         setFirstNumber(String(currentNumber));
-         setCurrentNumber('0')
-         setOperation('/')  
-      }else{
-         const por = Number(firstNumber) / 100
-         setCurrentNumber(String(por))
-         setOperation('')
-      }
-   }
-
-
    // Igual
    const handleEquals = () => {
       if(firstNumber !== '0' && operation !== '' && currentNumber !== '0'){
@@ -117,8 +103,8 @@ const App = () => {
          <Input value={currentNumber}/>
          <Row>
             <Button label="C" onClick={handleClear}/>
-            <Button label=";)" />
-            <Button label="%" onClick={handlePorNumber}/>
+            <Button label="+/-" />
+            <Button label="%" />
             <Button label="/" onClick={handleDivNumber}/>
          </Row>
          <Row>
