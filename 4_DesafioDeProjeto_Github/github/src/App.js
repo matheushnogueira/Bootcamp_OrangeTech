@@ -31,7 +31,7 @@ function App() {
    }
 
    const handleRemoveRepo = (id) => {
-      
+      console.log(id)
    }
 
    return (
